@@ -1,0 +1,5 @@
+- `make run` → run the app locally using uvicorn (development mode)
+- `make test` → run the local test suite with pytest
+- `make docker-build` → build the Docker image for the FastAPI app
+- `make docker-run` → run the app inside a Docker container, exposing it on port 8000
+- `make docker-shell` → open a shell session inside the Docker container, useful for debugging or inspection
